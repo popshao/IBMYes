@@ -1,7 +1,6 @@
 name: IBM Cloud Auto Restart
 
 on:
-  push:
   schedule:
     - cron: '0 21 * * *'
 
